@@ -1,0 +1,209 @@
+body {
+    background-color: rgb(79, 72, 72);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+header {
+    background: black;
+    padding: 20px 40px 10px 70px;
+}
+
+page { 
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+
+main {
+    background: white;
+    color: black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding-top: 20px ;
+    padding-bottom: 50px ;
+    align-items: center;
+}
+
+.mh {
+    text-align: center;
+    font-size: x-large;
+    color: black;
+    font-weight: bold;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    justify-content: center;
+}
+
+footer {
+    bottom: 0;
+    background: black;
+    height: 250px;
+    color: darkgray;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerTitle {
+    color: white;
+    font-size: 25px;
+    padding: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.scoialIcons {
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.scoialIcons  a{
+    padding-right: 20px;
+}
+
+boxes {
+    background: rgb(154, 172, 221);
+    margin-left: 25px;
+    margin-right: 25px;
+    width: 100px;
+    text-align: left;
+}
+
+.profilePhoto img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display:block
+}
+
+.aboutp {
+    display: flex;
+    flex-direction: column; /* Stacks the name and photo vertically */
+    align-items: center;    /* Centers both the name and photo horizontally */
+    text-align: center;     /* Centers the text of the name */
+}
+* {
+    box-sizing: border-box;
+    margin:0px;
+    padding: 0px;
+    justify-content: center;
+}
+
+.content {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-indent:50px;
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-top: 20px;
+    text-align: left;
+    padding-bottom: 5px;
+}
+
+.cover {
+    width: 800px;
+    height:400px;
+    margin-top: 50px;
+    display: flex;
+}
+
+.box {
+    margin: 10px;
+    width: 300px;
+    height: 400px;
+    box-shadow: -1px 0 10px #000000;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    display: inline-block;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+.articleCard {
+    text-align: left;
+    margin: 10px;
+    max-width: 200;
+    font-size: small;
+    flex-direction: row;
+    
+}
+
+.rows {
+    display: flex;
+    flex-direction: row; /* Arrange images in a row */
+    justify-content: center;
+    flex-wrap: wrap; /* Allow images to wrap to the next row if there's not enough space */
+    gap: 10px; /* Adds space between images */
+    width: 100%;
+
+}
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a {
+    text-decoration: none; /* Remove underline */
+    color: grey; /* Set the default link color */
+}
+
+a:visited {
+    color: grey; /* Set the color for visited links */
+}
+
+a:hover {
+    color: rgb(154, 172, 221);; /* Optional: Change color when hovered */
+}
+
+a:active {
+    color: grey; /* Set the color when the link is clicked */
+}
+
+.pageh1 {
+    text-align: center;
+    width: 75%;
+    height: 250px;
+    padding-top:15px;
+    padding-bottom: 25px;
+}
+
+h1 {
+    padding-bottom: 40px;
+}
